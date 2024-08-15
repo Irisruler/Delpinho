@@ -1,0 +1,29 @@
+{
+  "name": "delpinho-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm-run-all --parallel start:client start:server",
+    "start:client": "cd client && npm run dev",
+    "start:server": "node server/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "activedirectory": "^0.7.2",
+    "cors": "^2.8.5",
+    "date-fns": "^3.2.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "jwt-decode": "^4.0.0",
+    "momen": "^0.0.1-security",
+    "mysql2": "^3.6.3",
+    "react-spinners": "^0.13.8"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}
